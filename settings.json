@@ -1,0 +1,44 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "javascript.suggest.completeFunctionCalls": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "symbols",
+  "liveServer.settings.ignoreFiles": [
+    "**/*.json",
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ],
+  "workbench.colorTheme": "Min Dark",
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "symbols.hidesExplorerArrows": false
+}
