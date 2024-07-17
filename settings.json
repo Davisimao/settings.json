@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "JetBrains Mono",
   "files.autoSave": "onFocusChange",
-  "editor.fontSize": 17,
+  "editor.fontSize": 16.5,
   "editor.lineHeight": 1.8,
   "editor.rulers": [
     80,
@@ -15,16 +15,16 @@
   "explorer.compactFolders": false,
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
+  "workbench.activityBar.location": "bottom",
+  "editor.minimap.enabled": true,
+  "editor.scrollbar.vertical": "auto",
   "editor.scrollbar.horizontal": "hidden",
   "javascript.suggest.completeFunctionCalls": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.statusBar.visible": false,
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "liveServer.settings.ignoreFiles": [
     "**/*.json",
     ".vscode/**",
@@ -32,7 +32,7 @@
     "**/*.sass",
     "**/*.ts"
   ],
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "GitHub Dark",
   "editor.formatOnSave": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -40,5 +40,16 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "symbols.hidesExplorerArrows": false
+  "symbols.hidesExplorerArrows": false,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.autoClosingBrackets": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "monospace"
 }
